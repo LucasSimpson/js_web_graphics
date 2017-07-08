@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7c84c8-4b19-4bcc-bc72-27f9952aeae8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conways_gol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/render.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webGL/run.js" afterPath="$PROJECT_DIR$/webGL/run.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webGL/framework.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webGL/index.html" afterPath="$PROJECT_DIR$/webGL/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webGL/run.js" afterPath="$PROJECT_DIR$/webGL/run.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,12 +33,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webGL/run.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="393" column="23" lean-forward="false" selection-start-line="393" selection-start-column="23" selection-end-line="393" selection-end-column="23" />
+            <state relative-caret-position="244">
+              <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webGL/framework.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc;n#PolygonData#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,60 +58,22 @@
       <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webGL/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="155">
+              <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webGL/framework.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1232">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1499526699903" expanded="true" signature="544:1013" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="856:1011" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="1014:1146" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="1174:2175" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="2105:2173" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="2176:2255" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="2273:3057" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="2348:2431" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="2444:3055" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="2660:2816" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="2848:2940" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="3058:3195" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="3219:4487" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="3403:3498" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="3559:3748" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="4119:4235" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="4550:6721" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="4668:4912" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="4989:5082" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="5107:5196" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="5414:5537" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="6232:6681" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="6556:6675" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="6722:6811" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="6835:7707" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="7267:7394" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="7708:7836" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="7864:9160" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8001:8029" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8034:8122" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="8220:8379" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8262:8324" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8384:8468" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="8537:8598" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8654:8713" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="8723:8774" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9021:9139" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9161:9194" ph="//..." />
-                <marker date="1499526699903" expanded="true" signature="9219:9250" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9274:9307" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9332:9407" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9437:9750" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9800:9948" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9813:9885" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9895:9946" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="9972:10128" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="10005:10069" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="10157:10300" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="12271:12475" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="12502:12651" ph="{...}" />
-                <marker date="1499526699903" expanded="true" signature="12520:12589" ph="{...}" />
+                <marker date="1499528588133" expanded="true" signature="1479:3657" ph="{...}" />
+                <marker date="1499528588133" expanded="true" signature="1681:3638" ph="{...}" />
+                <marker date="1499528588133" expanded="true" signature="3673:3857" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -110,8 +82,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webGL/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -135,6 +107,8 @@
       <find>start</find>
       <find>mvPushMatrix</find>
       <find>var</find>
+      <find>build</find>
+      <find>build_</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -151,8 +125,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/conways_gol.js" />
         <option value="$PROJECT_DIR$/webGL/HelloWorld.ts" />
-        <option value="$PROJECT_DIR$/webGL/index.html" />
         <option value="$PROJECT_DIR$/webGL/run.ts" />
+        <option value="$PROJECT_DIR$/webGL/index.html" />
+        <option value="$PROJECT_DIR$/webGL/run.js" />
+        <option value="$PROJECT_DIR$/webGL/framework.ts" />
       </list>
     </option>
   </component>
@@ -214,6 +190,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="run.ts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js_graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework.ts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498244788666</updated>
       <workItem from="1498244790093" duration="8281000" />
-      <workItem from="1499523769971" duration="1963000" />
+      <workItem from="1499523769971" duration="3848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10244000" />
+    <option name="totallyTimeSpent" value="12129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="1069" width="1857" height="1092" extended-state="6" />
@@ -373,6 +367,8 @@
       <list>
         <option value="$PROJECT_DIR$/webGL/run.js" />
         <option value="$PROJECT_DIR$/webGL/run.js.map" />
+        <option value="$PROJECT_DIR$/webGL/framework.js.map" />
+        <option value="$PROJECT_DIR$/webGL/framework.js" />
       </list>
     </option>
   </component>
@@ -448,74 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webGL/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webGL/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1499526699903" expanded="true" signature="544:1013" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="856:1011" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="1014:1146" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="1174:2175" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="2105:2173" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="2176:2255" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="2273:3057" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="2348:2431" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="2444:3055" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="2660:2816" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="2848:2940" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="3058:3195" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="3219:4487" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="3403:3498" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="3559:3748" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="4119:4235" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="4550:6721" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="4668:4912" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="4989:5082" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="5107:5196" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="5414:5537" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="6232:6681" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="6556:6675" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="6722:6811" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="6835:7707" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="7267:7394" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="7708:7836" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="7864:9160" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8001:8029" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8034:8122" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="8220:8379" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8262:8324" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8384:8468" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="8537:8598" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8654:8713" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="8723:8774" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9021:9139" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9161:9194" ph="//..." />
-            <marker date="1499526699903" expanded="true" signature="9219:9250" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9274:9307" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9332:9407" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9437:9750" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9800:9948" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9813:9885" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9895:9946" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="9972:10128" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="10005:10069" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="10157:10300" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="12271:12475" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="12502:12651" ph="{...}" />
-            <marker date="1499526699903" expanded="true" signature="12520:12589" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webGL/glUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,9 +457,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webGL/run.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="393" column="23" lean-forward="false" selection-start-line="393" selection-start-column="23" selection-end-line="393" selection-end-column="23" />
+        <state relative-caret-position="244">
+          <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webGL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webGL/framework.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499528588133" expanded="true" signature="1479:3657" ph="{...}" />
+            <marker date="1499528588133" expanded="true" signature="1681:3638" ph="{...}" />
+            <marker date="1499528588133" expanded="true" signature="3673:3857" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webGL/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webGL/framework.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc;n#PolygonData#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

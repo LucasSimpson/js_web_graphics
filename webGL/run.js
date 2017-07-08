@@ -95,9 +95,19 @@ function start() {
 // one object -- a simple two-dimensional cube.
 //
 function initBuffers() {
-    var polys = build_polygons();
-    console.log('polyes:');
+    // var cube = Cube();
+    //
+    console.log("cube is:::");
     console.log(polys);
+
+    // var polys = {
+    //     vertices: cube.getVertices(),
+    //     colors: cube.getColors(),
+    //     indices: cube.getIndices()
+    // };
+
+    // var polys = build_polygons();
+
     // Create a buffer for the cube's vertices.
     cubeVerticesBuffer = gl.createBuffer();
     // Select the cubeVerticesBuffer as the one to apply vertex
